@@ -1,0 +1,315 @@
+@font-face {
+  font-family: CircleRounded-Bold;
+  src: url("../fonts/circe-rounded/CirceRounded-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: CircleRounded-ExtraBold;
+  src: url("../fonts/circe-rounded/CirceRounded-ExtraBold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: CircleRounded-Light;
+  src: url("../fonts/circe-rounded/CirceRounded-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: CircleRounded-Regular;
+  src: url("../fonts/circe-rounded/CirceRounded-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: GothamRounded-Light;
+  src: url("../fonts/gotham-rounded/GothamRounded-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: GothamRounded-Medium;
+  src: url("../fonts/gotham-rounded/GothamRounded-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: GothamRounded-Bold;
+  src: url("../fonts/gotham-rounded/GothamRounded-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: GothamRounded-Book;
+  src: url("../fonts/gotham-rounded/GothamRounded-Book.otf") format("opentype");
+}
+
+.site-heading {
+  text-align: left!important;
+}
+
+.banner-heading {
+  padding: 116px 0 150px;
+  color: #fff;
+  min-height: 100vh;
+}
+
+#mainNav .navbar-nav > li.nav-item > a {
+  color: #E3B67A;
+  font-family: 'GothamRounded-Book';
+  font-size: 18px;
+}
+
+#mainNav .navbar-nav li .active {
+  color: #97986C!important;
+}
+
+.banner-heading h6 {
+  font-size: 27px;
+  font-family: 'CircleRounded-Bold';
+  text-transform: uppercase;
+}
+
+.banner-heading span {
+  font-family: 'CircleRounded-light';
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.btn-rounded {
+  font-family: 'CircleRounded-ExtraBold';
+  font-size: 15px;
+  color: #fff;
+  letter-spacing: 1px;
+  line-height: 15px;
+  border-radius: 40px;
+  border: 1px solid #97986C;
+  background: #97986C;
+  transition: all 0.3s ease 0s;
+  padding: 9px 34px;
+}
+
+.span-subheading{
+  width: 70%;
+}
+
+.banner-button {
+    padding: 78px 0px;
+}
+
+#theysaid h6, #gallery h6{
+  font-size: 47px;
+  font-family: 'CircleRounded-Bold';
+}
+
+#theysaid .card-img-top{
+  width: 113px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 113px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 70px;
+}
+
+#theysaid .card {
+    border-radius: 19px!important;
+    border: 1px solid #E1E1E1;
+    height: 464px;
+}
+
+.bg-card1{
+  background-color: #D4945A;
+}
+
+.bg-card2{
+  background-color: #E6B87B;
+}
+
+.bg-card3{
+  background-color: #9B9C6F;
+}
+
+#theysaid .card .card-title {
+    font-family: 'GothamRounded-Bold';
+    color: #FFFFFF;
+}
+
+#theysaid .card .card-text {
+  font-family: 'GothamRounded-Light';
+  color: #FFFFFF;
+  padding-bottom: 100px;
+}
+
+#banner-footer .heading-banner-footer h6{
+  font-family: 'CircleRounded-Bold';
+  font-size: 25px;
+}
+
+#banner-footer .content-banner-footer span{
+  font-family: 'GothamRounded-Book';
+  font-size: 17px;
+}
+
+#theysaid {
+    margin-bottom: 50px;
+}
+
+#banner-footer{
+  background-color: #E1E1E1;
+  min-height: 87vh;
+  margin-bottom: 50px;
+}
+
+.right-banner-padding{
+  padding: 67px;
+}
+
+#banner-footer .heading-banner-footer{
+  margin-bottom: 18px;
+}
+
+#banner-footer .img-banner-footer{
+  width: 63vw;
+  height: 87vh;
+  margin-left: -23vw;
+}
+
+footer{
+  background-color: #97986C;
+  border: 1px solid #707070;
+  padding: 16px 12px 0px 34px!important;
+}
+
+footer .footer-left li{
+  font-family: 'CircleRounded-Regular';
+  font-size: 11px;
+  color: #FFFFFF;
+}
+
+footer .footer-left .location{
+  padding-top: 10px;
+}
+
+footer .footer-right{
+  text-align: right;
+}
+
+footer .footer-right i{
+  padding: 0 25px;
+}
+
+.copyright-footer{
+  border-left: 1px solid #fff;
+  font-size: 10px;
+  padding: 21px 0px 21px 10px;
+  font-family: 'CircleRounded-Regular';
+}
+
+.navbar-expand-lg .search-bar {
+  display: flex;
+  flex: 1;
+  max-width: 800px;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.navbar-expand-lg nav .search-bar .search {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  position: relative;
+}
+
+.navbar-expand-lg nav .search-bar .search .search__input {
+  display: flex;
+  flex: 1;
+  padding: 10px 20px 10px 50px;
+  height: 33px;
+  font-size: 17px;
+  border: none;
+  font-weight: 400;
+  position: relative;
+  right: 0;
+  outline: 0;
+  color: #fff;
+  border-radius: 27px;
+  background: transparent;
+  /* Note: currently only Safari supports backdrop-filter */
+  backdrop-filter: blur(9px);
+  --webkit-backdrop-filter: blur(30px);
+  background-color: rgba(0, 0, 0, 0.09);
+}
+
+.navbar-expand-lg nav .search-bar .search ::placeholder {
+  color: #FFFFFF;
+  font-size: 13px;
+  font-family: 'GothamRounded-Light';
+  opacity: 1; /* Firefox */
+}
+
+.navbar-expand-lg nav .search-bar .search .search__icon {
+  position: absolute;
+  z-index: 1;
+  left: 20px;
+  font-size: 15px;
+  top: 11px;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
+header.masthead .overlay{
+  background-color: #212529d6!important;
+}
+
+@media only screen and (min-width: 992px){
+  #mainNav.is-fixed .navbar-nav>li.nav-item>a {
+      color: #E3B67A;
+  }
+}
+
+#theysaid .card{
+  border: none;
+}
+
+#theysaid .card .card-body{
+  padding: 0px!important;
+}
+
+#theysaid .deskripsi{
+  font-family: 'GothamRounded-Light';
+}
+
+#gallery .gallery .xzoom-container {
+  display: block;
+}
+
+#gallery .gallery .xzoom-container .xzoom {
+  width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+}
+
+#gallery .gallery .xzoom-container .xactive {
+  border: 4px solid #1ABC9C;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.right-column{
+  order: 1;
+}
+
+#gallery .card{
+  border: none;
+}
+
+.gallery .xzoom-thumbs a img{
+  border-radius: 17px;
+  width: 60%;
+  object-fit: cover;
+}
+
+.gallery .xzoom-thumbs a .xactive{
+  border: 3px solid #D0915A;
+}
+
+.gallery .xzoom-container img{
+  border-radius: 17px;
+  object-fit: cover;
+}

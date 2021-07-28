@@ -313,3 +313,210 @@ header.masthead .overlay{
   border-radius: 17px;
   object-fit: cover;
 }
+
+.logo-our-product img{
+  width: 60%;
+}
+
+
+.logo-our-product .title span{
+  font-family: 'GothamRounded-Book';
+}
+
+.logo-our-product {
+    text-align: center;
+    cursor: pointer;
+}
+
+/* carousel product */
+.carousel-focus {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.carousel-focus .carousel-focus-inner {
+  height: 60vh;
+  width: 70%;
+  position: relative;
+}
+.carousel-focus .carousel-focus-inner .carousel-focus-item {
+  position: absolute;
+  display: inline-block;
+}
+.carousel-focus .carousel-focus-inner .carousel-focus-item:first-of-type {
+  left: 0;
+  transform: translate(0, 25%);
+  opacity: 0.25;
+}
+.carousel-focus .carousel-focus-inner .carousel-focus-item:nth-of-type(2) {
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 1;
+  opacity: 1;
+}
+.carousel-focus .carousel-focus-inner .carousel-focus-item:nth-of-type(3) {
+  right: 0;
+  transform: translate(0, 25%);
+  opacity: 0.25;
+}
+.carousel-focus .carousel-focus-inner .carousel-focus-item:nth-child(n+4) {
+  display: none;
+}
+.carousel-focus .carousel-focus-inner .carousel-focus-item img {
+  border-radius: 24px;
+  width: 100%;
+  height: auto;
+}
+.carousel-focus .carousel-focus-inner .carousel-focus-controls {
+  position: absolute;
+  z-index: 1;
+  bottom: -10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+/* end carousel food */
+
+
+#food-slider{
+  background-color: #D0915A;
+  min-height: 76vh;
+  margin-bottom: 77px;
+}
+
+.center img{
+  width: 370px;
+  height: 370px;
+  object-fit: cover;
+}
+
+.section-padding {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.owl-item .item {
+  transform: translate3d(0, 0, 0);
+  /* DO NOT REMEMBER WHERE TU PUT THIS, SEARCH FOR 3D ACCELERATION */
+  margin: 50px 0;
+  /* OVERWRITE PLUGIN MARGIN */
+}
+
+.screenshot_slider .owl-item .item img {
+  -webkit-transition: 0.3s;
+  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+}
+
+.screenshot_slider .owl-item.center .item img {
+  -webkit-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.screenshot_slider .owl-nav {
+  text-align: center;
+}
+
+.screenshot_slider .owl-nav button {
+  font-size: 24px !important;
+  margin: 10px;
+}
+
+#food-slider .owl-stage-outer .owl-item img {
+    height: 324px;
+    object-fit: cover;
+    border-radius: 26px;
+    opacity: 0.5;
+}
+
+#food-slider .owl-stage-outer .center img {
+    opacity: 1!important;
+}
+
+.owl-prev {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 40%;
+    margin-left: -20px!important;
+    display: block !important;
+    border: 0px solid black!important;
+}
+
+.owl-next {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 40%;
+    right: -25px;
+    display: block !important;
+    border:0px solid blacimportant;
+}
+
+.owl-nav button i{
+  color: #fff!important;
+}
+
+.owl-item .item p {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.owl-stage-outer .center .item .food-name{
+  font-family: 'GothamRounded-Bold'!important;
+  margin: 30px 0 0 0!important;
+}
+
+.owl-item .item .price{
+  font-family: 'GothamRounded-Light'!important;
+  margin: 0px!important;
+}
+
+.owl-stage-outer .owl-item .item .food-name {
+    margin: 0;
+    opacity: 0.5!important;
+}
+
+.owl-stage-outer .owl-item .item .price {
+    margin: 0;
+    opacity: 0.5!important;
+}
+
+.owl-stage-outer .center .item .food-name {
+    margin: 0;
+    opacity: 1!important;
+}
+
+.owl-stage-outer .center .item .price {
+    margin: 0;
+    opacity: 1!important;
+}
+
+#desc-product{margin-bottom: 78px;}
+
+#desc-product .img-desc{
+  height: 324px;
+  object-fit: cover;
+  border-radius: 26px;
+  width: 74%;
+}
+
+#desc-product .desc-product-name{
+  font-family: 'CircleRounded-Regular';
+  font-size: 68px;
+  font-weight: 400;
+}
+
+#desc-product .desc-product-price{font-family: 'CircleRounded-Light';font-size: 33px;margin-top: 17px;}
+
+#desc-product .desc-product-detail{font-family: 'CircleRounded-Light';}
+
+#desc-product p {
+    margin-left: 23px;
+}

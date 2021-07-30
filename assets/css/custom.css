@@ -430,9 +430,11 @@ header.masthead .overlay{
 
 #food-slider .owl-stage-outer .owl-item img {
     height: 324px;
+    width: 80%;
     object-fit: cover;
     border-radius: 26px;
     opacity: 0.5;
+    margin: auto;
 }
 
 #food-slider .owl-stage-outer .center img {
